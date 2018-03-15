@@ -2,6 +2,11 @@
    url-prefix(http://friendfeed.com),
    url-prefix(https://friendfeed.com)
 {
+/* 
+==========================================================================
+Friendfeed: For the love of icons
+========================================================================== 
+*/
 
 /* Expand message width. */
   td.mainsizer
