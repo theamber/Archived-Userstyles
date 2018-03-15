@@ -1,0 +1,539 @@
+@-moz-document
+   url-prefix(http://friendfeed.com),
+   url-prefix(https://friendfeed.com)
+{
+
+/* Expand message width. */
+  td.mainsizer
+  {
+    width: 100% !important;
+  }
+
+/* Set positioning box on entry and add grey alignment line. */
+  .entry
+  {
+    position: relative;
+    border-top: 1px dotted #eee;
+  }
+
+
+
+/* Position the service info in the top right corner, after the title. */
+  .info a.service
+  {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    width: 20%;
+    font-size: 80%;
+  }
+}
+
+
+/**** Services Icon back!  Alireza Diba & Kwebble win the internetz for the jump off! ****/
+
+
+a.service
+{
+  font-weight: bold !important;
+}
+
+a.service[href*=twitter\.com]
+{
+  color: #00DEEE !important;
+  font-weight: bold !important;
+}
+
+a.service[href*=twitter\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/twitter.png) " " !important;
+}
+
+a.service[href*=flickr\.com]
+{
+  color: #FF0084 !important;
+}
+
+a.service[href*=flickr\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/flickr.png) " " !important;
+}
+
+a.service[href*=delicious\.com]
+{
+  color: #3274D0 !important;
+}
+
+a.service[href*=delicious\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/delicious.png) " " !important;
+}
+
+a.service[href*=youtube\.com]
+{
+  color: #FF1B1B !important;
+}
+
+a.service[href*=youtube\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/youtube.png) " " !important;
+}
+
+a.service[href*=google\.com\/reader]
+{
+  color: #B97373 !important;
+}
+
+a.service[href*=google\.com\/reader]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/googlereader.png) " " !important;
+}
+
+a.service[href*=tumblr\.com]
+{
+  color: #111416 !important;
+}
+
+a.service[href*=tumblr\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/tumblr.png) " " !important;
+}
+
+a.service[href*=diigo\.com]
+{
+  color: #09f !important;
+}
+
+a.service[href*=diigo\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/diigo.png) " " !important;
+}
+
+a.service[href*=stumbleupon\.com]
+{
+  color: #02B703 !important;
+}
+
+a.service[href*=stumbleupon\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/stumbleupon.png) " " !important;
+}
+
+a.service[href*=goodreads\.com]
+{
+  color: #5E4C3D !important;
+}
+
+a.service[href*=goodreads\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/goodreads.png) " " !important;
+}
+
+a.service[href*=librarything\.com]
+{
+  color: #D0895E !important;
+}
+
+a.service[href*=librarything\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/librarything.png) " " !important;
+}
+
+a.service[href*=digg\.com]
+{
+  color: #A8A8A8 !important;
+}
+
+a.service[href*=digg\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/digg.png) " " !important;
+}
+
+a.service[href*=picasaweb\.google\.com]
+{
+  color: #803C91 !important;
+}
+
+a.service[href*=picasaweb\.google\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/picasa.png) " " !important;
+}
+
+a.service[href*=zooomr\.com]
+{
+  color: #E7A715 !important;
+}
+
+a.service[href*=zooomr\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/zooomr.png) " " !important;
+}
+
+a.service[href*=facebook\.com]
+{
+  color: #3B5998 !important;
+}
+
+a.service[href*=facebook\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/facebook.png) " " !important;
+}
+
+a.service[href*=talk\.google\.com]
+{
+  color: #439F45 !important;
+}
+
+a.service[href*=talk\.google\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/googletalk.png) " " !important;
+}
+
+a.service[href*=identi\.ca]
+{
+  color: #8F0000 !important;
+}
+
+a.service[href*=identi\.ca]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/identica.png) " " !important;
+}
+
+a.service[href*=plurk\.com]
+{
+  color: #CF682F !important;
+}
+
+a.service[href*=plurk\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/plurk.png) " " !important;
+}
+
+a.service[href*=ilike\.com]
+{
+  color: #F87421 !important;
+}
+
+a.service[href*=ilike\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/ilike.png) " " !important;
+}
+
+a.service[href*=last\.fm]
+{
+  color: #D20039 !important;
+}
+
+a.service[href*=last\.fm]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/lastfm.png) " " !important;
+}
+
+a.service[href*=wakoopa\.com]
+{
+  color: #7DD90F !important;
+}
+
+a.service[href*=wakoopa\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/wakoopa.png) " " !important;
+}
+
+a.service[href*=vi\.sualize\.us]
+{
+  color: #2CACE7 !important;
+}
+
+a.service[href*=vi\.sualize\.us]:before
+{
+  content: url(http://vi.sualize.us/favicon.ico) " " !important;
+}
+
+a.service[href*=polyvore\.com]
+{
+  color: #000 !important;
+}
+
+a.service[href*=polyvore\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/polyvore.png) " " !important;
+}
+
+a.service[internal]:
+{
+  content: url(http://friendfeed.com/static/images/icons/internal.png?v=e471) " " !important;
+}
+
+a.service[href*=livejournal\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/livejournal.png?v=33ef) " " !important;
+}
+
+a.service[href*=12seconds\.tv]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/twelveseconds.png) " " !important;
+}
+
+a.service.feed:before
+{
+  content: url(http://friendfeed.com/static/images/icons/feed.png?v=d3fe) " " !important;
+}
+
+a.service[href*=disqus\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/disqus.png?v=82e8) " " !important;
+}
+
+a.service[href*=photobucket\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/photobucket.png?v=d324) " " !important;
+}
+
+a.service[href*=backtype\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/backtype.png?v=9732) " " !important;
+}
+
+a.service[href*=seesmic\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/seesmic.png?v=8204) " " !important;
+}
+
+a.service[href*=reddit\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/reddit.png?v=594c) " " !important;
+}
+
+a.service[href*=upcoming\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/upcoming.png) " " !important;
+}
+
+a.service[href*=twine\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/twine.png?v=3994) " " !important;
+}
+
+a.service[href*=jaiku\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/jaiku.png?v=b161) " " !important;
+}
+
+a.service[href*=amazon\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/amazon.png?v=8e06) " " !important;
+}
+
+a.service[href*=yelp\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/yelp.png?v=1d40) " " !important;
+}
+
+a.service[href*=netflix\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/netflix.png?v=4a3c) " " !important;
+}
+
+a.service[href*=vimeo\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/vimeo.png?v=4889) " " !important;
+}
+
+a.service[href*=mixx\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/mixx.png?v=e93d) " " !important;
+}
+
+a.service[href*=pandora\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/pandora.png?v=7b57) " " !important;
+}
+
+a.service[href*=intensedebate\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/intensedebate.png?v=3d94) " " !important;
+}
+
+a.service[href*=brightkite\.com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/brightkite.png?v=5e24) " " !important;
+}
+
+a.service[href*=soup\.io]:before
+{
+  content: url(http://static.soup.io/images/favicon.png?1256758451) " " !important;
+}
+
+a.service[href*=pip\.io]:before
+{
+  content: url(http://pip.io//favicon.png?2) " " !important;
+}
+
+a.service[href*=google\.com/wave]:before
+{
+  content: url(http://t1.gstatic.com/images?q=tbn:VZzNK6cKUZZvKM:http://profile.ak.fbcdn.net/object3/1930/87/q81197107774_9596.jpg) " " !important;
+}
+
+a.service
+{
+  href*=pipes\.yahoo\.com;
+}
+
+before
+{
+  content: url(http://l.yimg.com/a/i/us/pps/pipeslogo_whitebg.gif) " " !important;
+}
+
+a.service[href*=blogspot\.com]
+{
+  color: #F60 !important;
+  font-weight: bold !important;
+}
+
+a.service[href*=blogspot\.com]:before
+{
+  content: url(http://www.google.com/help/hc/images/blogger-16.gif)" " !important;
+}
+
+a.service[href*=wordpress\.com]
+{
+  color: #4E7AA6 !important;
+  font-weight: bold !important;
+}
+
+a.service[href*=wordpress\.com]:before
+{
+  content: url(http://i.friendfeed.com/a2cc12a4d558303fe9f384b1c9ad237f75cd39e0)" " !important;
+}
+
+a.service[href*=vox\.com]
+{
+  color: red !important;
+}
+
+a.service[href*=vox\.com]:before
+{
+  content: url(http://i.friendfeed.com/26fc70f7da0b5120f7ca4125e3fff425c4a243e1)" " !important;
+}
+
+a.service[href*=imdb\.com]
+{
+  color: #FC6 !important;
+}
+
+a.service[href*=imdb\.com]:before
+{
+  content: url(http://www.favicon.cc/?action=icon&file_id=52237)" " !important;
+}
+
+a.service[href*=deviantart\.com]
+{
+  color: #838383 !important;
+}
+
+a.service[href*=deviantart\.com]:before
+{
+  content: url(http://i.friendfeed.com/6b7b2d1f24db838b9cecfb33503ac64a8cf2f289)" " !important;
+}
+
+a.service[href*=blip\.fm]
+{
+  color: #5B5D56 !important;
+}
+
+a.service[href*=blip\.fm]:before
+{
+  content: url(http://blip.fm/favicon.ico)" " !important;
+}
+
+a.service[href*=fftogo\.com]:before
+{
+  content: url(http://i.friendfeed.com/4e1926a30098b818b09d35401d3aaa48e4a75c2c)" " !important;
+}
+
+a.service[href*=friendfeed\.com]
+{
+  color: #6495D1 !important;
+}
+
+a.service[href*=friendfeed\.com]:before
+{
+  content: url(http://i.friendfeed.com/61717ca0eb462efd6c59d72651b56606b007c1d9)" " !important;
+}
+
+a.service[href*=flickchart\.com]
+{
+  color: #010101 !important;
+}
+
+a.service[href*=flickchart\.com]:before
+{
+  content: url(http://www.flickchart.com/favicon.ico)" " !important;
+}
+
+a.service[href*=raptr\.com]:before
+{
+  content: url(http://raptr.com/favicon.ico)" " !important;
+}
+
+a.service[href*=posterous\.com]
+{
+  color: #db8900 !important;
+}
+
+a.service[href*=posterous\.com]:before
+{
+  content: url(http://posterous.com/images/favicon.png)" " !important;
+}
+
+a.service[href*=ffundercats\.com]:before
+{
+  content: url(http://www.favicon.cc/?action=icon&file_id=12270 " "  !important}
+
+a.service[href*=ping\.fm]:before{content:url(http://ping.fm/_images/icons/ping.png)" " !important;
+}
+
+a.service[href*=listen\.grooveshark\.com]:before
+{
+  content: url(http://grooveshark.com/favicon.ico) " " !important;
+}
+
+a.service[href*=hulu\.com]:before
+{
+  content: url(http://hulu.com/favicon.ico)" " !important;
+}
+
+a.service:before
+{
+  content: url(http://friendfeed.com/static/images/icons/blog.png?v=d3fe)" " !important;
+}
+
+a.service[href*=qik\.com]:before
+{
+  content: url(http://qik.com/favicon.ico)" " !important;
+}
+
+a.service[href*=buzz\.googleapis\.com]:before
+{
+  content: url(http://t0.gstatic.com/images?q=tbn:46DAvSMxqRWoOM:http://birminghamnewsroom.com/wp-content/uploads/2010/02/google_buzz_logo.jpg) " " !important;
+}
+
+a.service[href*=linkedin\com]:before
+{
+  content: url(http://friendfeed.com/static/images/icons/linkedin.png) " " !important;
+}
+
+a.service[href*=getglue\.com]:before
+{
+  content: url(http://www.cbsfilms.com/library/img/icon_getglue.png) " " !important;
+}
+
+a.service[href*=gomiso\.com]:before
+{
+  content: url(http://assets2.gomiso.com/REV_c6d7f21c616c1259508e38c81bb8cdeec75f5935/images/intro/miso_small_logo.png) " " !important;
+}
+
+a.service[href*=adtweets\.appspot\.com]:before
+{
+  content: url(http://www.huffingtonpost.com/images/social/twitter-bird-mini.png) " " !important;
+}
